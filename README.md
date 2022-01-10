@@ -7,9 +7,8 @@ In this project, I developed a portfolio of my current projects.  I first create
 My portfolio website has been deloyed and can be accessed here: https://greenmanaustin.github.io/bhagia-portfolio/
 
 Here are three screenshots of the live website which have been roughly stitched together to give an approximation of how the website appears:
-![This is the top of the website](./assets/images/screenshot1.png)
-![This is the middle of the website](./assets/images/screenshot2.png)
-![This is the bottom of the website](./assets/images/screenshot3.png)
+![This is the top of the website](./assets/images/portfolio1.png)
+![This is the bottom of the website](./assets/images/portfolio2.png)
 
 ## Skills Learned
 
