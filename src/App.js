@@ -1,23 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import About from './components/About';
+import Nav from './components/Nav';
+import Portfolio from './components/Portfolio';
+
+
 
 function App() {
+  const [categories] = useState([
+      'about me',
+      'portfolio',
+      'contact',
+      'resume'
+  ]);
+  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  console.log(currentCategory);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Nav
+      categories={categories}
+      setCurrentCategory={setCurrentCategory}
+      currentCategory={currentCategory}>
+      </Nav>
+      <main className='flex-wrapper'>
+      {(() => {
+        switch (currentCategory) {
+          case 'about me':
+            return <About></About>
+          case 'portfolio':
+             return <Portfolio></Portfolio>
+          case 'contact':
+              return <About></About>
+          case 'resume':
+              return <About></About>
+          default:
+              return null;
+        }
+
+      })()}
+      </main>
     </div>
   );
 }

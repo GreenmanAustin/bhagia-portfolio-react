@@ -11,3 +11,254 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --primary-color: #0B3954;
+  --secondary-color: #8C93A8;
+  --tertiary-color: #DACC3E;
+}
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+/* General Styling */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: var(--tertiary-color);
+}
+/* Header styling */
+header {
+  display: flex;
+  background-color: var(--primary-color);
+  padding: 20px 35px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  align-items: center;
+  z-index: 9999;
+}
+
+header nav ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+list-style: none;
+}
+
+header nav ul li {
+padding: 10px 15px;
+color: var(--tertiary-color);
+font-weight: lighter;
+font-size: 23px;
+text-decoration: none;
+}
+
+/* header nav ul li:hover {
+  font-weight: bolder;
+  font-size: 23px;
+  text-decoration: underline;
+} */
+
+header h1 {
+font-weight: bold;
+margin: 0;
+
+display: flex;
+}
+
+header h1 a {
+font-size: 36px;
+color: var(--tertiary-color);
+text-decoration: none;
+}
+/* Section Styling */
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #bfd7ea;
+}
+
+.aboutSection {
+  padding: 20px 35px;
+  background-color: #bfd7ea;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  align-items: start;
+
+}
+
+.portfolioSection {
+  padding: 20px 35px;
+  background-color: #bfd7ea;
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: start;
+}
+
+.section-title {
+  font-size: 36px;
+  color: var(--primary-color);
+  
+}
+
+.aboutText {
+  font-size: 25px;
+  color: var(--primary-color);
+  line-height: 2;
+
+  
+}
+
+.navActive {
+  color: red;
+}
+
+nav li {
+  cursor: pointer;
+}
+
+/* hero styling */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  height: 350px;
+  width: 100%;
+  padding: 20px 35px 0 35px;
+  /* background-image: url("./images/road.jpg"); */
+  background-size: cover;
+  background-position: center;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.hero-cta {
+  margin: 0 20px 5px 0;
+  line-height: 1.5;
+  text-align: right;
+  font-size: 23.04px;
+  font-weight: bolder;
+  color: var(--tertiary-color);
+
+}
+
+/* About Me styling */
+
+.about-me-content {
+  display: flex;
+  padding-left: 40px;
+  border-left: 3px solid var(--tertiary-color);
+}
+.profile-img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.profile-img-container {
+  height: 300px;
+  width: 300px;
+}
+
+.about-me-text {
+  padding-left: 20px;
+  line-height: 2;
+  font-size: 18px;
+}
+
+/* Work Styling */
+.work-section {
+  display: flex;
+  height:auto;
+  flex-wrap: nowrap;
+}
+
+.portfolio {
+  height:100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 40px;
+  border-left: 3px solid var(--tertiary-color);
+}
+
+.project-one {
+  display: flex;
+  width: 80%;
+  height: auto;
+}
+
+.other-projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+  margin-top: 30px;
+}
+
+.project-one a img, .other-projects a img {
+  height: 100%;
+  width: 100%;
+  color: var(--tertiary-color);
+}
+
+.project-one a, .portfolio-link a {
+  color: var(--tertiary-color);
+  position: relative;
+  display: inline-block;
+}
+
+.project-one a span, .portfolio-link a span {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  padding: 20px 0;
+  width: 30%;
+  height: 44px;
+  line-height: 2px;
+  color: #f90;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.portfolio-link {
+  margin: 30px 0 30px 0;
+}
+
+.portfolio-link:hover, .project-one:hover {
+  border: 1px solid var(--tertiary-color);
+}
+
+/* Contact Section */
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+#contact-me .section-title {
+  border-right: 3px solid var(--tertiary-color);
+}
+.contact-item {
+  margin: 20px;
+}
+
+.contact-item h5{
+  font-size: 23.04px;
+  color: var(--tertiary-color);
+}
+.contact-item h5 a{
+  text-decoration: none;
+  color: var(--tertiary-color);
+}

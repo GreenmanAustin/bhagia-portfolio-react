@@ -14,8 +14,15 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     color: var(--tertiary-color);
 }
+
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 /* Header styling */
-header {
+.headerstyle {
     display: flex;
     background-color: var(--primary-color);
     padding: 20px 35px;
@@ -28,7 +35,7 @@ header {
     z-index: 9999;
 }
 
-header nav ul {
+navstyle {
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
@@ -36,7 +43,7 @@ align-items: center;
 list-style: none;
 }
 
-header nav ul li a {
+navlist {
 padding: 10px 15px;
 color: var(--tertiary-color);
 font-weight: lighter;
