@@ -103,6 +103,13 @@ text-decoration: none;
   flex-wrap: wrap;
 }
 
+.contactSection {
+  padding: 20px 35px;
+  background-color: #bfd7ea;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .section-title {
   font-size: 36px;
   color: var(--primary-color);
@@ -170,7 +177,7 @@ nav li {
 }
 
 
-/* Work Styling */
+/* Portfolio Styling */
 
 .portfolio {
   display: flex;
@@ -242,24 +249,28 @@ nav li {
 
 /* Contact Section */
 
-.contact-links {
-  display: flex;
-  flex-wrap: wrap;
-  height: 100%;
+.contactText {
+  font-size: 24px;
+  color: var(--primary-color);
 }
 
-#contact-me .section-title {
-  border-right: 3px solid var(--tertiary-color);
-}
-.contact-item {
-  margin: 20px;
+
+.contactInput {
+  margin-bottom: 20px;
+  line-height: 40px;
+  width: 150%;
+  font-size: 25px;
 }
 
-.contact-item h5{
-  font-size: 23.04px;
-  color: var(--tertiary-color);
-}
-.contact-item h5 a{
-  text-decoration: none;
-  color: var(--tertiary-color);
+.submitBtn {
+  background-color: var(--primary-color);
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+ width: 150%;
+  padding: 10px 15px;
+
 }

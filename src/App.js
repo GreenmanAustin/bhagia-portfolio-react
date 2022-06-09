@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import About from './components/About';
 import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
+import ContactForm from './components/Contact';
 
 
 
@@ -29,7 +30,7 @@ function App() {
           case 'portfolio':
              return <Portfolio></Portfolio>
           case 'contact':
-              return <About></About>
+              return <ContactForm></ContactForm>
           case 'resume':
               return <About></About>
           default:
