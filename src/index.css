@@ -92,7 +92,7 @@ text-decoration: none;
   flex-direction: column;
   flex-wrap: wrap;
 
-  align-items: start;
+  align-items: flex-start;
 
 }
 
@@ -101,13 +101,13 @@ text-decoration: none;
   background-color: #bfd7ea;
   display: flex;
   flex-wrap: wrap;
-
-  align-items: start;
 }
 
 .section-title {
   font-size: 36px;
   color: var(--primary-color);
+  margin-bottom: 20px;
+  width: 100%;
   
 }
 
@@ -169,75 +169,76 @@ nav li {
   width: 300px;
 }
 
-.about-me-text {
-  padding-left: 20px;
-  line-height: 2;
-  font-size: 18px;
-}
 
 /* Work Styling */
-.work-section {
-  display: flex;
-  height:auto;
-  flex-wrap: nowrap;
-}
 
 .portfolio {
-  height:100%;
-  width: 100%;
   display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  padding-left: 40px;
-  border-left: 3px solid var(--tertiary-color);
-}
 
-.project-one {
-  display: flex;
-  width: 80%;
-  height: auto;
-}
-
-.other-projects {
-  display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  width: 70%;
-  margin-top: 30px;
+  flex-direction: row;
+  width: 100%;
+  justify-content:flex-start;
 }
 
-.project-one a img, .other-projects a img {
+.projects {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  width: 40%;
+  height: 500px;
+  position: relative;
+}
+
+.projects:hover img {
+  mix-blend-mode: hard-light;
+  opacity: 0.2;
+  transition: all 1s ease;
+}
+.project-image {
   height: 100%;
   width: 100%;
   color: var(--tertiary-color);
+  object-fit: fill;
 }
 
-.project-one a, .portfolio-link a {
-  color: var(--tertiary-color);
-  position: relative;
-  display: inline-block;
+.projects:hover a {
+  opacity: 40%;
 }
 
-.project-one a span, .portfolio-link a span {
+.links {
   position: absolute;
-  top: 50%;
-  left: 0%;
-  padding: 20px 0;
-  width: 30%;
-  height: 44px;
-  line-height: 2px;
-  color: #f90;
-  background-color: rgba(0,0,0,0.5);
+  width: max-content;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.project-name {
+  
+  font-size: 40px;
+  opacity: 0;
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+  margin-right: 20px;
 }
 
-.portfolio-link {
-  margin: 30px 0 30px 0;
+.gitIcon {
+  font-size:40px;
+  opacity: 100%;
+  opacity: 0;
+  color: black;
+
+
 }
 
-.portfolio-link:hover, .project-one:hover {
-  border: 1px solid var(--tertiary-color);
+.projects a:hover {
+  opacity: 100%;
+  transition: all 1s ease;
+
 }
+
 
 /* Contact Section */
 

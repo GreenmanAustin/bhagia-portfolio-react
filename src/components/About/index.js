@@ -6,7 +6,7 @@ function About() {
     <section className='aboutSection'>
       <h1 className='section-title'>About Me</h1>
       <div className='profile-img-container'>
-        <img className='profile-img' src={profilePic}/>
+        <img className='profile-img' alt='this is me' src={profilePic}/>
       </div>
       <p className='aboutText'>
         I am on a journey to become a full-stack web developer.

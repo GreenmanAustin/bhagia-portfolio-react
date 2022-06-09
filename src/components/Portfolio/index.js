@@ -1,36 +1,39 @@
 import React, {useState} from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+  import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 
 function Portfolio() {
+
     const [projects] = useState([
         {
             name: 'Late Night Eats',
             link: 'https://late-nite-bites.herokuapp.com/',
-            image: './assets/images/late-night-eats.png',
+            image: 'late-night-eats.png',
             gitlink: 'https://github.com/GreenmanAustin/late-night-bites'
         },
         {
             name: 'Travel Diary',
             link: 'https://protected-plateau-77534.herokuapp.com/',
-            image: './assets/images/travel-diary.png',
+            image: 'travel-diary.png',
             gitlink: 'https://github.com/GreenmanAustin/travel-log-dashboard'
         },
         {
             name: 'City Scout',
             link: 'https://greenmanaustin.github.io/city-scout/',
-            image: './assets/images/city-scout.png',
+            image: 'city-scout.png',
             gitlink: 'https://github.com/GreenmanAustin/city-scout'
         },
         {
             name: 'Run Buddy',
             link: 'https://greenmanaustin.github.io/run-buddy/',
-            image: './assets/images/run-buddy.jpg',
+            image: 'run-buddy.jpg',
             gitlink: 'https://github.com/GreenmanAustin/run-buddy'
         },
         {
             name: 'Weather Dashboard',
             link: 'https://greenmanaustin.github.io/weather-dashboard/',
-            image: './assets/images/refractor.jpg',
+            image: 'weather-dashboard.png',
             gitlink: 'https://github.com/GreenmanAustin/weather-dashboard'
         }
         
@@ -38,16 +41,27 @@ function Portfolio() {
   return (
     <section className='portfolioSection'>
       <h1 className='section-title'>Portfolio</h1>
-      <div className="flex-row">
+      <div className="portfolio">
           {projects.map((project) => (
-              <div className='projectImage'>
-                  <img alt={`${project.name}`} src= {project.image}/>
-
-
-
-              </div>
+             <div className='projects' key={project.name}>
+                  <img 
+                  className='project-image'
+                  src={require(`../../assets/images/${project.image}`)}
+                  alt={project.name}
+                  />
+                  <div className='links'>
+                      
+                  <a href={project.link} target="_blank" rel="noopener noreferrer" 
+                  className='project-name'>
+                      {project.name}
+                  </a>
+                  <a href={project.gitlink}
+                  target="_blank" rel="noopener noreferrer" className="gitIcon">
+                  <FontAwesomeIcon icon={faGithub} /> 
+                  </a>
+                  </div>
+                  </div> 
           ))}
-
       </div>
     </section>
   );

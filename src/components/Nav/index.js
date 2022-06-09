@@ -14,7 +14,7 @@ function Nav(props) {
   return (
     <header className='headerstyle'>
         <h1>
-            <a href="/">Sheroo's Portfolio</a>
+            <a href="/">Sheroo</a>
         </h1>
         <nav>
             <ul className='navstyle'>
@@ -23,7 +23,7 @@ function Nav(props) {
                     className={`navlist ${
                         currentCategory === category && 'navActive'
                         }`}
-                    key={category.name}
+                    key={category}
                     >
                     <span
                         onClick={() => {
