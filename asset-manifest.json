@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bhagia-portfolio-react/static/css/main.7574317f.css",
+    "main.css": "/bhagia-portfolio-react/static/css/main.3c39b417.css",
     "main.js": "/bhagia-portfolio-react/static/js/main.97908167.js",
     "static/js/787.facd5f3b.chunk.js": "/bhagia-portfolio-react/static/js/787.facd5f3b.chunk.js",
     "static/media/travel-diary.png": "/bhagia-portfolio-react/static/media/travel-diary.166322113e10a9634704.png",
@@ -17,12 +17,12 @@
     "static/media/contact.png": "/bhagia-portfolio-react/static/media/contact.214eb22e6fc77d4846ab.png",
     "static/media/myResume.pdf": "/bhagia-portfolio-react/static/media/myResume.5eac43b41d06f8c64e69.pdf",
     "index.html": "/bhagia-portfolio-react/index.html",
-    "main.7574317f.css.map": "/bhagia-portfolio-react/static/css/main.7574317f.css.map",
+    "main.3c39b417.css.map": "/bhagia-portfolio-react/static/css/main.3c39b417.css.map",
     "main.97908167.js.map": "/bhagia-portfolio-react/static/js/main.97908167.js.map",
     "787.facd5f3b.chunk.js.map": "/bhagia-portfolio-react/static/js/787.facd5f3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7574317f.css",
+    "static/css/main.3c39b417.css",
     "static/js/main.97908167.js"
   ]
 }
