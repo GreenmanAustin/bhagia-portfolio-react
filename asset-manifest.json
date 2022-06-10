@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/bhagia-portfolio-react/static/css/main.67cb3faa.css",
+    "main.js": "/bhagia-portfolio-react/static/js/main.ad6fd417.js",
+    "static/js/787.facd5f3b.chunk.js": "/bhagia-portfolio-react/static/js/787.facd5f3b.chunk.js",
+    "static/media/travel-diary.png": "/bhagia-portfolio-react/static/media/travel-diary.166322113e10a9634704.png",
+    "static/media/city-scout.png": "/bhagia-portfolio-react/static/media/city-scout.060076bd90fa51c5ab99.png",
+    "static/media/about.png": "/bhagia-portfolio-react/static/media/about.b2bd73d7dc212835163f.png",
+    "static/media/portfolio.png": "/bhagia-portfolio-react/static/media/portfolio.d50151a563715170b221.png",
+    "static/media/road.jpg": "/bhagia-portfolio-react/static/media/road.cf14a60fb6129d898dd2.jpg",
+    "static/media/weather-dashboard.png": "/bhagia-portfolio-react/static/media/weather-dashboard.0e976fb08a4baace6da8.png",
+    "static/media/late-night-eats.png": "/bhagia-portfolio-react/static/media/late-night-eats.4a9712b151d8d4f00464.png",
+    "static/media/run-buddy.jpg": "/bhagia-portfolio-react/static/media/run-buddy.000e1b5ff4f0b912c97f.jpg",
+    "static/media/profile.jpeg": "/bhagia-portfolio-react/static/media/profile.931cdd5f070b0fb4b8c2.jpeg",
+    "static/media/resume.png": "/bhagia-portfolio-react/static/media/resume.416d70e9472cdd98b9e5.png",
+    "static/media/contact.png": "/bhagia-portfolio-react/static/media/contact.214eb22e6fc77d4846ab.png",
+    "static/media/myResume.pdf": "/bhagia-portfolio-react/static/media/myResume.5eac43b41d06f8c64e69.pdf",
+    "index.html": "/bhagia-portfolio-react/index.html",
+    "main.67cb3faa.css.map": "/bhagia-portfolio-react/static/css/main.67cb3faa.css.map",
+    "main.ad6fd417.js.map": "/bhagia-portfolio-react/static/js/main.ad6fd417.js.map",
+    "787.facd5f3b.chunk.js.map": "/bhagia-portfolio-react/static/js/787.facd5f3b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67cb3faa.css",
+    "static/js/main.ad6fd417.js"
+  ]
+}
