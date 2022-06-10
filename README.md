@@ -19,7 +19,7 @@
 
   ## Usage
 
-  The deployed app is available using the following link:  <a href="https://whispering-brook-54265.herokuapp.com/">Deployed App</a>
+  The deployed app is available using the following link:  <a href="https://greenmanaustin.github.io/bhagia-portfolio-react/">Deployed App</a>
 
   ## Images
   ![About Page](./src/assets/images/about.png)
