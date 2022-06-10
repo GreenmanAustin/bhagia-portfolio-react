@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bhagia-portfolio-react/static/css/main.67cb3faa.css",
-    "main.js": "/bhagia-portfolio-react/static/js/main.ad6fd417.js",
+    "main.js": "/bhagia-portfolio-react/static/js/main.97908167.js",
     "static/js/787.facd5f3b.chunk.js": "/bhagia-portfolio-react/static/js/787.facd5f3b.chunk.js",
     "static/media/travel-diary.png": "/bhagia-portfolio-react/static/media/travel-diary.166322113e10a9634704.png",
     "static/media/city-scout.png": "/bhagia-portfolio-react/static/media/city-scout.060076bd90fa51c5ab99.png",
@@ -13,15 +13,16 @@
     "static/media/run-buddy.jpg": "/bhagia-portfolio-react/static/media/run-buddy.000e1b5ff4f0b912c97f.jpg",
     "static/media/profile.jpeg": "/bhagia-portfolio-react/static/media/profile.931cdd5f070b0fb4b8c2.jpeg",
     "static/media/resume.png": "/bhagia-portfolio-react/static/media/resume.416d70e9472cdd98b9e5.png",
+    "static/media/budget.png": "/bhagia-portfolio-react/static/media/budget.b7d0327fd0d414d487ba.png",
     "static/media/contact.png": "/bhagia-portfolio-react/static/media/contact.214eb22e6fc77d4846ab.png",
     "static/media/myResume.pdf": "/bhagia-portfolio-react/static/media/myResume.5eac43b41d06f8c64e69.pdf",
     "index.html": "/bhagia-portfolio-react/index.html",
     "main.67cb3faa.css.map": "/bhagia-portfolio-react/static/css/main.67cb3faa.css.map",
-    "main.ad6fd417.js.map": "/bhagia-portfolio-react/static/js/main.ad6fd417.js.map",
+    "main.97908167.js.map": "/bhagia-portfolio-react/static/js/main.97908167.js.map",
     "787.facd5f3b.chunk.js.map": "/bhagia-portfolio-react/static/js/787.facd5f3b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.67cb3faa.css",
-    "static/js/main.ad6fd417.js"
+    "static/js/main.97908167.js"
   ]
 }
