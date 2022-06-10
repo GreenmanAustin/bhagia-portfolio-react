@@ -1,17 +1,39 @@
 # My Portfolio
 
-In this project, I developed a portfolio of my current projects.  I first created the structure of this site by creating an html file with the basic elements and content.  After that, I added CSS to give the site its current style.  I also added flexbox styling to make the website responsive to different viewport sizes.  
+ ## Description
 
-## Deployment
+ This applications showcases certain projects I have completed during my time at the University of Texas' Coding Bootcamp.  I created this application using React, HMTL, CSS.  This application has been deployed using Github Pages. Icons are provided by fontawesome.       
 
-My portfolio website has been deloyed and can be accessed here: https://greenmanaustin.github.io/bhagia-portfolio/
+## Table of Contents
 
-Here are screenshots of the live website which have been roughly stitched together to give an approximation of how the website appears:
-![This is the top of the website](./assets/images/portfolio-a.png)
-![This is the middle of the website](./assets/images/portfolio-b.png)
-![This is the bottom of the website](./assets/images/portfolio-c.png)
+  
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Images](#images)
+  - [Contributing](#contributing)
+  - [Questions](#questions)
+
+  ## Installation
+
+  The user should clone the repository from GitHub and install all the dependencies using "npm install." 
+
+  ## Usage
+
+  The deployed app is available using the following link:  <a href="https://whispering-brook-54265.herokuapp.com/">Deployed App</a>
+
+  ## Images
+  ![About Page](./src/assets/images/about.png)
+  ![Portfolio Page](./src/assets/images/portfolio.png)
+  ![Contact Page](./src/assets/images/contact.png)
+  ![Resume Page](./src/assets/images/resume.png)
+
+  ## Contributing
+
+  This application was create by Sheroo Bhagia with code contributed from the coding boot camp at the University of Texas.  I welcome any comments, suggestions or questions.  
 
 
-## Skills Learned
+  ## Questions
 
-The process of creating this website really challenged my understanding of CSS.  This was the first time I had to apply my understanding of CSS without the aid of the class guidance.  This process reinforced prior lessons and made me aware of all the multitude of things I still do not truly understand. 
+  My Github page is: https://github.com/greenmanaustin
+
+  You can reach me with questions at: sheroo.bhagia@gmail.com

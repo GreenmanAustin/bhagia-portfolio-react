@@ -3,6 +3,15 @@ import profilePic from "../../assets/images/profile.jpeg"
 
 function About() {
   return (
+    <div>
+    <section className="hero">
+        <div className="hero-cta">
+            <p>
+                The ones who are crazy enough to think that they can change the work are the one who do. <br></br> -Steve
+                Jobs
+            </p>
+        </div>
+    </section>
     <section className='aboutSection'>
       <h1 className='section-title'>About Me</h1>
       <div className='profile-img-container'>
@@ -15,6 +24,7 @@ function About() {
       </p>
       
     </section>
+    </div>
   );
 }
 

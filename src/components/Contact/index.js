@@ -43,15 +43,15 @@ function ContactForm() {
           <h1 className="section-title">Contact me</h1>
           <form id="contact-form" onSubmit={handleSubmit}>
             <div>
-              <label htmlFor="name" className="contactText">Name:</label>
+              <label htmlFor="name" className="contactText">Name:</label> <br></br>
               <input type="text" name="name" className="contactInput" defaultValue={name}onBlur={handleChange}/>
             </div>
             <div>
-              <label htmlFor="email" className="contactText">Email address:</label> 
+              <label htmlFor="email" className="contactText">Email address:</label> <br></br>
               <input type="email" name="email" className="contactInput" defaultValue={email} onBlur={handleChange}/>
             </div>
             <div>
-              <label htmlFor="message" className="contactText">Message:</label>
+              <label htmlFor="message" className="contactText">Message:</label> <br></br>
         
               <textarea name="message" rows="5" className="contactInput" defaultValue={message} onBlur={handleChange}></textarea>
             </div>
