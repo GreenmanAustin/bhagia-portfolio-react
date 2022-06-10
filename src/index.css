@@ -40,6 +40,7 @@ header {
   top: 0;
   align-items: center;
   z-index: 9999;
+  min-height: 100px;
 }
 
 header nav ul {
@@ -58,11 +59,6 @@ font-size: 23px;
 text-decoration: none;
 }
 
-/* header nav ul li:hover {
-  font-weight: bolder;
-  font-size: 23px;
-  text-decoration: underline;
-} */
 
 header h1 {
 font-weight: bold;
@@ -76,55 +72,10 @@ font-size: 36px;
 color: var(--tertiary-color);
 text-decoration: none;
 }
-/* Section Styling */
-.flex-wrapper {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: #bfd7ea;
-}
 
-.aboutSection {
-  padding: 20px 35px;
-  background-color: #bfd7ea;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
 
-  align-items: flex-start;
 
-}
 
-.portfolioSection {
-  padding: 20px 35px;
-  background-color: #bfd7ea;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.contactSection {
-  padding: 20px 35px;
-  background-color: #bfd7ea;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.section-title {
-  font-size: 36px;
-  color: var(--primary-color);
-  margin-bottom: 20px;
-  width: 100%;
-  
-}
-
-.aboutText {
-  font-size: 25px;
-  color: var(--primary-color);
-  line-height: 2;
-
-  
-}
 
 .navActive {
   color: red;
@@ -158,6 +109,46 @@ nav li {
 
 }
 
+/* Section Styling */
+.flex-wrapper {
+  display: flex;
+  min-height: 80vh;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #bfd7ea;
+}
+
+.aboutSection {
+  padding: 20px 35px;
+  background-color: #bfd7ea;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  align-items: flex-start;
+
+}
+
+
+
+/* General Section Styling */
+
+.section-title {
+  font-size: 36px;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+  width: 100%;
+  
+}
+
+.aboutText {
+  font-size: 25px;
+  color: var(--primary-color);
+  line-height: 2;
+
+  
+}
+
 /* About Me styling */
 
 .about-me-content {
@@ -179,6 +170,13 @@ nav li {
 
 /* Portfolio Styling */
 
+.portfolioSection {
+  padding: 20px 35px;
+  background-color: #bfd7ea;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .portfolio {
   display: flex;
 
@@ -196,6 +194,8 @@ nav li {
   width: 40%;
   height: 500px;
   position: relative;
+  max-width: 700px;
+  min-width: 400px;
 }
 
 .projects:hover img {
@@ -245,21 +245,68 @@ nav li {
   transition: all 1s ease;
 
 }
+/* Resume Section */
+.resumeSection {
+  padding: 20px 35px;
+  background-color: #bfd7ea;
+}
 
+.resumeText {
+  font-size: 20px;
+  color: var(--primary-color);
+  margin-bottom: 0;
+}
+
+.listText {
+  font-size: 20px;
+  color: var(--primary-color);
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.resumeHeading {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: var(--primary-color)
+}
+
+
+
+.downloadText {
+  text-decoration: none;
+  color: var(--primary-color);
+  opacity: .7;
+  margin-bottom: 0;
+}
+
+.downloadText:hover {
+  opacity: 1;
+}
 
 /* Contact Section */
 
+.contactSection {
+  padding: 20px 35px;
+  background-color: #bfd7ea;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .contactText {
-  font-size: 24px;
+  font-size: 20px;
   color: var(--primary-color);
 }
+
+
 
 
 .contactInput {
   margin-bottom: 20px;
   line-height: 40px;
   width: 150%;
-  font-size: 25px;
+  min-width: 250px;
+  font-size: 20px;
 }
 
 .submitBtn {
@@ -270,7 +317,42 @@ nav li {
   cursor: pointer;
   font-size: 20px;
   font-weight: 600;
- width: 150%;
+  width: 150%;
   padding: 10px 15px;
+}
+
+.error-text {
+  font-size: 20px;
+  color: red;
+}
+
+/* Footer Styling */
+
+.footerSection {
+  background-color: #bfd7ea;
+  min-height: 15vh;
+  max-height: 100px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+
+
+
+}
+
+.footerIcons {
+  font-size: 48px;
+  color: var(--primary-color);
+  margin-left: 30px;
+  opacity: .7;
+
+}
+
+.footerIcons:hover {
+  
+  opacity: 1;
+  transition: all .5s ease;
 
 }

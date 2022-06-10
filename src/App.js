@@ -3,6 +3,8 @@ import About from './components/About';
 import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
+import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 
 
@@ -32,13 +34,14 @@ function App() {
           case 'contact':
               return <ContactForm></ContactForm>
           case 'resume':
-              return <About></About>
+              return <Resume></Resume>
           default:
               return null;
         }
 
       })()}
       </main>
+      <Footer></Footer>
     </div>
   );
 }
